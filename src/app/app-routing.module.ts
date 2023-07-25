@@ -6,6 +6,7 @@ import { ServicesComponent } from './services/services.component';
 import { WorksComponent } from './works/works.component';
 import { ContactComponent } from './contact/contact.component';
 import { TosComponent } from './tos/tos.component';
+import { PrivacypolicyComponent } from './privacypolicy/privacypolicy.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path:'services',component:ServicesComponent},
   {path:'works',component:WorksComponent},
   {path:'contact',component:ContactComponent},
-  {path:'termsofservice',component:TosComponent}
+  {path:'termsofservice',component:TosComponent},
+  {path:'privacypolicy',component:PrivacypolicyComponent}
 ];
 
 @NgModule({

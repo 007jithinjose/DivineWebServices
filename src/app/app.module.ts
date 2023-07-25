@@ -10,6 +10,7 @@ import { WorksComponent } from './works/works.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TosComponent } from './tos/tos.component';
+import { PrivacypolicyComponent } from './privacypolicy/privacypolicy.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TosComponent } from './tos/tos.component';
     ServicesComponent,
     WorksComponent,
     ContactComponent,
-    TosComponent
+    TosComponent,
+    PrivacypolicyComponent
   ],
   imports: [
     BrowserModule,
