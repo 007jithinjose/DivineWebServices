@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TosComponent } from './tos/tos.component';
 import { PrivacypolicyComponent } from './privacypolicy/privacypolicy.component';
+import { ContactService } from './contact.service';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,9 @@ import { PrivacypolicyComponent } from './privacypolicy/privacypolicy.component'
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+    ContactService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
