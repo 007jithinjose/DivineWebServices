@@ -1,0 +1,100 @@
+/*--------------------------------------------------------------
+  # Sections
+  --------------------------------------------------------------*/
+  section {
+    overflow: auto;
+  }
+  
+  /* Sections Header
+  --------------------------------*/
+  .section-header h3 {
+    font-size: 36px;
+    color: #283d50;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    height: 60px;
+    width: auto;
+    padding: 5%;
+  }
+  
+  .section-header p {
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    padding-bottom: 60px;
+    color: #556877;
+    width: 50%;
+  }
+  
+  @media (max-width: 767px) {
+    .section-header p {
+      width: 100%;
+    }
+  }
+  
+  /* Section with background
+  --------------------------------*/
+  .section-bg {
+    background: #ecf5ff;
+  }
+
+   /* Services Section
+  --------------------------------*/
+  #services {
+    padding: 60px 0 40px 0;
+    box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  #services .box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #services .box:hover {
+    transform: translateY(-5px);
+  }
+  
+  #services .icon {
+    position: relative;
+    margin: 10px;
+    float: left;
+    width: 35px;
+  }
+  
+  #services .icon i {
+    font-size: 64px;
+    line-height: 0;
+    transition: 0.5s;
+  }
+  
+  #services .title {
+    margin-left: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  #services .title a {
+    color: #111;
+  }
+  
+  #services .box:hover .title a {
+    color: #007bff;
+  }
+  
+  #services .description {
+    font-size: 14px;
+    margin-left: 30px;
+    line-height: 24px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+ 
