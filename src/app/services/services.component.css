@@ -52,15 +52,22 @@
     overflow: hidden;
     border-radius: 10px;
     margin: 10px 10px 40px 10px;
-    background: #fff;
+    background: white;
     box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
     transition: all 0.3s ease-in-out;
+    color:#007bff;
   }
   
   #services .box:hover {
     transform: translateY(-5px);
+    background-color: #007bff;
+    color: white;
   }
   
+  #services .thumbnail {
+    background-color: #007bff;
+    color: white;
+  }
   #services .icon {
     position: relative;
     margin: 10px;
@@ -91,7 +98,7 @@
   }
   
   #services .description {
-    font-size: 14px;
+    font-size: 18px;
     margin-left: 30px;
     line-height: 24px;
     margin-bottom: 0;
