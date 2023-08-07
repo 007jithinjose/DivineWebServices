@@ -1,5 +1,6 @@
 import { Component, OnInit} from '@angular/core';
 import {FormGroup, FormControl, Validators } from '@angular/forms'
+import { ContactService } from '../contact.service';
 
 @Component({
   selector: 'app-contact',
@@ -9,7 +10,7 @@ import {FormGroup, FormControl, Validators } from '@angular/forms'
 export class ContactComponent implements OnInit{
   FeedBackForm!: FormGroup;
 
-  constructor(){
+  constructor(private contact:ContactService){
     
   }
 
@@ -23,8 +24,9 @@ export class ContactComponent implements OnInit{
     });
 
   }
-  onFormSubmit() {
-    console.log(this.FeedBackForm);
-  }
+  // onFormSubmit() {
+  //   console.log(this.FeedBackForm);
+  //   this.contact.PostMessage(this.FeedBackForm);
+  // }
 
 }
